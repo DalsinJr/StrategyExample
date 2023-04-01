@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="7" failures="7" name="com.alticelabs.ccp.prototype.NextCommandDeciderTest" time="0.002" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2022.3.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.6+10-LTS"/>
+    <property name="sun.boot.library.path" value="/Users/jose/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/jose/Documents/Projects/prototype-workflow-business"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="PT"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/jose/Documents/Projects/prototype-workflow-business"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.6+10-LTS"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.io.tmpdir" value="/var/folders/jp/1csg7frs6cg34hc_0sm04z6h0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/jose/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="12.6.1"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/jose"/>
+    <property name="user.timezone" value="Europe/Lisbon"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="jose"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.3 verify"/>
+    <property name="java.home" value="/Users/jose/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-17/issues/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Corretto-17.0.6.10.1"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase classname="com.alticelabs.ccp.prototype.NextCommandDeciderTest" name="com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep1WithOkStatus" time="0.002">
+    <failure message="com/alticelabs/ccp/prototype/ServiceCriteriaStrategy" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: com/alticelabs/ccp/prototype/ServiceCriteriaStrategy
+	at com.alticelabs.ccp.prototype.NextCommandDecider.setupStrategies(NextCommandDecider.java:39)
+	at com.alticelabs.ccp.prototype.NextCommandDecider.&lt;init&gt;(NextCommandDecider.java:16)
+	at com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep1WithOkStatus(NextCommandDeciderTest.java:20)
+Caused by: java.lang.ClassNotFoundException: com.alticelabs.ccp.prototype.ServiceCriteriaStrategy
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 21 more
+</failure>
+  </testcase>
+  <testcase classname="com.alticelabs.ccp.prototype.NextCommandDeciderTest" name="com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep1WithNotOkStatus" time="0">
+    <failure message="com/alticelabs/ccp/prototype/ServiceCriteriaStrategy" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: com/alticelabs/ccp/prototype/ServiceCriteriaStrategy
+	at com.alticelabs.ccp.prototype.NextCommandDecider.setupStrategies(NextCommandDecider.java:39)
+	at com.alticelabs.ccp.prototype.NextCommandDecider.&lt;init&gt;(NextCommandDecider.java:16)
+	at com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep1WithNotOkStatus(NextCommandDeciderTest.java:40)
+Caused by: java.lang.ClassNotFoundException: com.alticelabs.ccp.prototype.ServiceCriteriaStrategy
+	... 21 more
+</failure>
+  </testcase>
+  <testcase classname="com.alticelabs.ccp.prototype.NextCommandDeciderTest" name="com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep2WithOkStatus" time="0">
+    <failure message="com/alticelabs/ccp/prototype/ServiceCriteriaStrategy" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: com/alticelabs/ccp/prototype/ServiceCriteriaStrategy
+	at com.alticelabs.ccp.prototype.NextCommandDecider.setupStrategies(NextCommandDecider.java:39)
+	at com.alticelabs.ccp.prototype.NextCommandDecider.&lt;init&gt;(NextCommandDecider.java:16)
+	at com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep2WithOkStatus(NextCommandDeciderTest.java:48)
+Caused by: java.lang.ClassNotFoundException: com.alticelabs.ccp.prototype.ServiceCriteriaStrategy
+	... 21 more
+</failure>
+  </testcase>
+  <testcase classname="com.alticelabs.ccp.prototype.NextCommandDeciderTest" name="com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep2WithNotOkStatus" time="0">
+    <failure message="com/alticelabs/ccp/prototype/ServiceCriteriaStrategy" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: com/alticelabs/ccp/prototype/ServiceCriteriaStrategy
+	at com.alticelabs.ccp.prototype.NextCommandDecider.setupStrategies(NextCommandDecider.java:39)
+	at com.alticelabs.ccp.prototype.NextCommandDecider.&lt;init&gt;(NextCommandDecider.java:16)
+	at com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep2WithNotOkStatus(NextCommandDeciderTest.java:56)
+Caused by: java.lang.ClassNotFoundException: com.alticelabs.ccp.prototype.ServiceCriteriaStrategy
+	... 21 more
+</failure>
+  </testcase>
+  <testcase classname="com.alticelabs.ccp.prototype.NextCommandDeciderTest" name="com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep3WithOkStatus" time="0">
+    <failure message="com/alticelabs/ccp/prototype/ServiceCriteriaStrategy" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: com/alticelabs/ccp/prototype/ServiceCriteriaStrategy
+	at com.alticelabs.ccp.prototype.NextCommandDecider.setupStrategies(NextCommandDecider.java:39)
+	at com.alticelabs.ccp.prototype.NextCommandDecider.&lt;init&gt;(NextCommandDecider.java:16)
+	at com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep3WithOkStatus(NextCommandDeciderTest.java:64)
+Caused by: java.lang.ClassNotFoundException: com.alticelabs.ccp.prototype.ServiceCriteriaStrategy
+	... 21 more
+</failure>
+  </testcase>
+  <testcase classname="com.alticelabs.ccp.prototype.NextCommandDeciderTest" name="com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep3WithNotOkStatus" time="0">
+    <failure message="com/alticelabs/ccp/prototype/ServiceCriteriaStrategy" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: com/alticelabs/ccp/prototype/ServiceCriteriaStrategy
+	at com.alticelabs.ccp.prototype.NextCommandDecider.setupStrategies(NextCommandDecider.java:39)
+	at com.alticelabs.ccp.prototype.NextCommandDecider.&lt;init&gt;(NextCommandDecider.java:16)
+	at com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep3WithNotOkStatus(NextCommandDeciderTest.java:72)
+Caused by: java.lang.ClassNotFoundException: com.alticelabs.ccp.prototype.ServiceCriteriaStrategy
+	... 21 more
+</failure>
+  </testcase>
+  <testcase classname="com.alticelabs.ccp.prototype.NextCommandDeciderTest" name="com.alticelabs.ccp.prototype.NextCommandDeciderTest.testUnknownStep" time="0">
+    <failure message="com/alticelabs/ccp/prototype/ServiceCriteriaStrategy" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: com/alticelabs/ccp/prototype/ServiceCriteriaStrategy
+	at com.alticelabs.ccp.prototype.NextCommandDecider.setupStrategies(NextCommandDecider.java:39)
+	at com.alticelabs.ccp.prototype.NextCommandDecider.&lt;init&gt;(NextCommandDecider.java:16)
+	at com.alticelabs.ccp.prototype.NextCommandDeciderTest.testUnknownStep(NextCommandDeciderTest.java:80)
+Caused by: java.lang.ClassNotFoundException: com.alticelabs.ccp.prototype.ServiceCriteriaStrategy
+	... 21 more
+</failure>
+  </testcase>
+</testsuite>

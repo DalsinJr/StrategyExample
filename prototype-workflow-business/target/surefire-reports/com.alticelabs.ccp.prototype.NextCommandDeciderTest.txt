@@ -1,0 +1,63 @@
+-------------------------------------------------------------------------------
+Test set: com.alticelabs.ccp.prototype.NextCommandDeciderTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep1WithOkStatus()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/alticelabs/ccp/prototype/ServiceCriteriaStrategy
+	at com.alticelabs.ccp.prototype.NextCommandDecider.setupStrategies(NextCommandDecider.java:39)
+	at com.alticelabs.ccp.prototype.NextCommandDecider.<init>(NextCommandDecider.java:16)
+	at com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep1WithOkStatus(NextCommandDeciderTest.java:20)
+Caused by: java.lang.ClassNotFoundException: com.alticelabs.ccp.prototype.ServiceCriteriaStrategy
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 21 more
+
+com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep1WithNotOkStatus()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/alticelabs/ccp/prototype/ServiceCriteriaStrategy
+	at com.alticelabs.ccp.prototype.NextCommandDecider.setupStrategies(NextCommandDecider.java:39)
+	at com.alticelabs.ccp.prototype.NextCommandDecider.<init>(NextCommandDecider.java:16)
+	at com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep1WithNotOkStatus(NextCommandDeciderTest.java:40)
+Caused by: java.lang.ClassNotFoundException: com.alticelabs.ccp.prototype.ServiceCriteriaStrategy
+	... 21 more
+
+com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep2WithOkStatus()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/alticelabs/ccp/prototype/ServiceCriteriaStrategy
+	at com.alticelabs.ccp.prototype.NextCommandDecider.setupStrategies(NextCommandDecider.java:39)
+	at com.alticelabs.ccp.prototype.NextCommandDecider.<init>(NextCommandDecider.java:16)
+	at com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep2WithOkStatus(NextCommandDeciderTest.java:48)
+Caused by: java.lang.ClassNotFoundException: com.alticelabs.ccp.prototype.ServiceCriteriaStrategy
+	... 21 more
+
+com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep2WithNotOkStatus()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/alticelabs/ccp/prototype/ServiceCriteriaStrategy
+	at com.alticelabs.ccp.prototype.NextCommandDecider.setupStrategies(NextCommandDecider.java:39)
+	at com.alticelabs.ccp.prototype.NextCommandDecider.<init>(NextCommandDecider.java:16)
+	at com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep2WithNotOkStatus(NextCommandDeciderTest.java:56)
+Caused by: java.lang.ClassNotFoundException: com.alticelabs.ccp.prototype.ServiceCriteriaStrategy
+	... 21 more
+
+com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep3WithOkStatus()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/alticelabs/ccp/prototype/ServiceCriteriaStrategy
+	at com.alticelabs.ccp.prototype.NextCommandDecider.setupStrategies(NextCommandDecider.java:39)
+	at com.alticelabs.ccp.prototype.NextCommandDecider.<init>(NextCommandDecider.java:16)
+	at com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep3WithOkStatus(NextCommandDeciderTest.java:64)
+Caused by: java.lang.ClassNotFoundException: com.alticelabs.ccp.prototype.ServiceCriteriaStrategy
+	... 21 more
+
+com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep3WithNotOkStatus()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/alticelabs/ccp/prototype/ServiceCriteriaStrategy
+	at com.alticelabs.ccp.prototype.NextCommandDecider.setupStrategies(NextCommandDecider.java:39)
+	at com.alticelabs.ccp.prototype.NextCommandDecider.<init>(NextCommandDecider.java:16)
+	at com.alticelabs.ccp.prototype.NextCommandDeciderTest.testStep3WithNotOkStatus(NextCommandDeciderTest.java:72)
+Caused by: java.lang.ClassNotFoundException: com.alticelabs.ccp.prototype.ServiceCriteriaStrategy
+	... 21 more
+
+com.alticelabs.ccp.prototype.NextCommandDeciderTest.testUnknownStep()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/alticelabs/ccp/prototype/ServiceCriteriaStrategy
+	at com.alticelabs.ccp.prototype.NextCommandDecider.setupStrategies(NextCommandDecider.java:39)
+	at com.alticelabs.ccp.prototype.NextCommandDecider.<init>(NextCommandDecider.java:16)
+	at com.alticelabs.ccp.prototype.NextCommandDeciderTest.testUnknownStep(NextCommandDeciderTest.java:80)
+Caused by: java.lang.ClassNotFoundException: com.alticelabs.ccp.prototype.ServiceCriteriaStrategy
+	... 21 more
+
